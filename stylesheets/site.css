@@ -106,6 +106,9 @@ img {
 }
 /*Responsivity*/
 
+.mobileOnly {
+	display: block;
+}
 @media (max-width:1000px) {
 	.mainContent{
 		margin: 0;
@@ -118,7 +121,8 @@ img {
 	}
 }
 
-@media screen and (min-width: 725px) {
+@media screen and (min-width: 790px) {
+	
 	.mobileHeader {
 		display: none;
 	}
