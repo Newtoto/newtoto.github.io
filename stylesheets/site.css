@@ -123,7 +123,29 @@ img {
 	}
 }
 
+@media screen and (max-width: 807px) {
+	.tab-links li {
+		width:93%;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	h2 {
+		line-height: 3.5rem;
+		margin-top: 15px;
+		margin-bottom: 37px;
+	}
+}
+
 @media screen and (min-width: 807px) {
+	
+	.tab-links li {
+		width:26%;
+	}
+	
+	.tabList {
+		width:24%; 
+	}
 	
 	.mobileHeader {
 		display: none;
@@ -153,8 +175,13 @@ img {
 
 /*Tabs*/
 
+.tabChild {
+	width: 100%;
+}
+
 .tab-links {
     border-bottom:solid thick;
+	padding: 0;
 }
 
 .tab-links:after {
@@ -169,33 +196,33 @@ img {
         content:'';
     }
  
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
- 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#edf1f2;
-            font-size:16px;
-            font-weight:600;
-            color:gray;
-            transition:all linear 0.15s;
-        }
- 
-        .tab-links a:hover {
-            background:#3bc0c3;
-            text-decoration:none;
-            color:white;
-        }
- 
-    li.active a, li.active a:hover {
-        background:#3bc0c3;
-        color:white;
-    }
+.tab-links li {
+	margin-right: 35px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#edf1f2;
+	font-size:16px;
+	font-weight:600;
+	color:gray;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#8bd4d6;
+	text-decoration:none;
+	color:white;
+}
+
+li.active a, li.active a:hover {
+	background:#3bc0c3;
+	color:white;
+}
  
     /*----- Content of Tabs -----*/
 .tab-content {
