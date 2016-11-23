@@ -116,13 +116,13 @@ img {
 	}
 }
 
-@media handheld, screen and (min-width: 725px) {
+@media handheld, screen and (device-min-width: 725px) {
 	.mobileHeader {
 		display: none;
 	}
 }
 
-@media handheld, screen and (max-width: 725px) {
+@media handheld, screen and (device-max-width: 725px) {
 	.desktopHeader {
 		display: none;
 	}
