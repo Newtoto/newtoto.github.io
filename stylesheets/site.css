@@ -34,17 +34,19 @@ img {
 }
 
 .breakOut {
-	padding: 0 10.5%;
+	padding: 0 0;
 	position: fixed;
 	left: 0;
 	background-color: #c1c1c1;
-	width: 79%;
+	width: 100%;
 }
+
 
 .desktopHeader {
 	height: 70px;
 	line-height: 22px;
 	top: 0;
+	display: none;
 }
 
 .mobileHeader {
@@ -53,7 +55,7 @@ img {
 }
 
 .mainContent {
-	padding: 100px 6%;
+	padding: 143px 6%;
 	background-color: #fff;
 	margin: 0 10%;
 	box-shadow: 0 0 150px -25px;
@@ -86,7 +88,7 @@ img {
 .flexChild {
 	flex: 6;
 	padding: 0px 0px;
-	line-height: 34px;
+	line-height: 0px;
 	font-weight: 600;
 }
 
@@ -96,7 +98,7 @@ img {
 }
 .flexText {
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .indentParagraph {
@@ -116,32 +118,30 @@ img {
 	}
 }
 
-@media handheld, screen and (min-width: 725px) {
+@media screen and (min-width: 725px) {
 	.mobileHeader {
 		display: none;
 	}
-}
-
-@media handheld, screen and (max-width: 725px) {
+	
 	.desktopHeader {
-		display: none;
+		display: block;
 	}
 	
 	.mainContent {
-		padding: 143px 6%;
+		padding: 100px 6%;
 	}
 	
 	.flexChild {
-		line-height:0px;
+		line-height:34px;
 	}
 	
 	.flexText {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	
 	.breakOut {
-		padding: 0 0;
-		width: 100%;
+		padding: 0 10.5%;
+		width: 79%;
 	}
 }
 
