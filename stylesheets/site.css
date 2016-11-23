@@ -9,7 +9,10 @@ h1 {
 }
 
 h2 {
-	
+	text-align: left;
+	font-size: 4rem;
+	line-height: 1rem;
+	color: #e0a944;
 }
 
 h3 {
@@ -55,7 +58,7 @@ img {
 }
 
 .mainContent {
-	padding: 143px 6%;
+	padding: 110px 6%;
 	background-color: #fff;
 	margin: 0 10%;
 	box-shadow: 0 0 150px -25px;
@@ -131,7 +134,7 @@ img {
 	}
 	
 	.mainContent {
-		padding: 100px 6%;
+		padding: 62px 6%;
 	}
 	
 	.flexChild {
