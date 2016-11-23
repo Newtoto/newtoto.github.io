@@ -125,7 +125,7 @@ img {
 
 @media screen and (max-width: 807px) {
 	.tab-links li {
-		width:93%;
+		width:91%;
 	}
 }
 
@@ -133,7 +133,7 @@ img {
 	h2 {
 		line-height: 3.5rem;
 		margin-top: 15px;
-		margin-bottom: 37px;
+		margin-bottom: 35px;
 	}
 }
 
