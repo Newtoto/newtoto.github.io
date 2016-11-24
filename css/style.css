@@ -213,7 +213,7 @@ Portfolio Projects
   /* this is the single project */
   position: absolute;
   z-index: 1;
-  height: 100%;
+  height: 101%;
   width: 100%;
   -webkit-transform: translateZ(50vw);
           transform: translateZ(50vw);
