@@ -10,4 +10,10 @@ jQuery(document).ready(function() {
  
         e.preventDefault();
     });
+	
+	$(".fancybox")
+		.attr('rel', 'gallery')
+		.fancybox({
+			padding : 0
+		});
 });
