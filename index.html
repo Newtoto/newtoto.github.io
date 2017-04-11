@@ -12,70 +12,185 @@
 	<title>Andrew Findlay</title>
 </head>
 <body>
-<div class = "header flexContainer">
-	<h1 class = "flexChild">Andrew Findlay</h1>
+<!- Desktop main header ->
+<div class = "header flexContainer desktop">
+	<a href = "index.html">
+		<h1 class = "flexChild headerName">Andrew Findlay</h1>
+	</a>
 	<div class = "flexChild flexContainer">
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#skills"><h2>Skills</h2></a>
-		</div>
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#experience"><h2>Experience</h2></a>
-		</div>
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#portfolio"><h2>Portfolio</h2></a>
-		</div>
+		<a href = "#skills" class = "flexChild headerLink">
+			<h2>Skills</h2>
+		</a>
+		<a href = "#experience" class = "flexChild headerLink">
+			<h2>Experience</h2>
+		</a>
+		<a href = "#portfolio" class = "flexChild headerLink">
+			<h2>Portfolio</h2>
+		</a>
+		<a href = "#contact" class = "flexChild headerLink">
+			<h2>Contact</h2>
+		</a>
 	</div>
 </div>
-<div class = "fixedHeader header flexContainer">
-	<h1 class = "flexChild">Andrew Findlay</h1>
+<!- Mobile main header ->
+<div class = "header flexContainer mobile">
+	<a href = "index.html">
+		<h1 class = "flexChild headerName">Andrew Findlay</h1>
+	</a>
 	<div class = "flexChild flexContainer">
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#skills"><h2>Skills</h2></a>
-		</div>
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#experience"><h2>Experience</h2></a>
-		</div>
-		<div class = "flexChild headerLink">
-			<a class = "headerLink" href = "#portfolio"><h2>Portfolio</h2></a>
-		</div>
+		<a href = "#skillsMobile" class = "flexChild headerLink">
+			<h2>Skills</h2>
+		</a>
+		<a href = "#experience" class = "flexChild headerLink">
+			<h2>Experience</h2>
+		</a>
+		<a href = "#portfolio" class = "flexChild headerLink">
+			<h2>Portfolio</h2>
+		</a>
+		<a href = "#contact" class = "flexChild headerLink">
+			<h2>Contact</h2>
+		</a>
+	</div>
+</div>
+
+
+
+<!- Desktop fixed header ->
+<div class = "fixedHeader flexContainer desktop">
+	<a href = "index.html">
+		<h1 class = "flexChild headerName">Andrew Findlay</h1>
+	</a>
+	<div class = "flexChild flexContainer">
+		<a href = "#skills" class = "flexChild headerLink">
+			<h2>Skills</h2>
+		</a>
+		<a href = "#experience" class = "flexChild headerLink">
+			<h2>Experience</h2>
+		</a>
+		<a href = "#portfolio" class = "flexChild headerLink">
+			<h2>Portfolio</h2>
+		</a>
+		<a href = "#contact" class = "flexChild headerLink">
+			<h2>Contact</h2>
+		</a>
+	</div>
+</div>
+
+<!- Mobile fixed header ->
+<div class = "fixedHeader mobile">
+	<div class ="flexContainer">
+		<a href = "index.html">
+			<h1 class = "flexChild headerName">AF</h1>
+		</a>
+		<a href = "#skillsMobile" class = "flexChild headerLink">
+			<h2>Skills</h2>
+		</a>
+		<a href = "#experience" class = "flexChild headerLink">
+			<h2>Experience</h2>
+		</a>
+		<a href = "#portfolio" class = "flexChild headerLink">
+			<h2>Portfolio</h2>
+		</a>
+		<a href = "#contact" class = "flexChild headerLink">
+			<h2>Contact</h2>
+		</a>
 	</div>
 </div>
 
 <div class = "content">
-<section>
-	<div class = "dark icons" id = "skills">
+
+<!- Desktop Skills ->
+<section class = "desktop" id = "skills">
+	<div class = "dark icons">
 		<div class = "flexContainer">
-			<div class = "square">
-				<img class = "flexIcon" src = "img/python.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/python.png">
+				<h2 class = "skillText">Python</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon"src = "img/cppLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon"src = "img/icons/cppLogo.png">
+				<h2 class = "skillText">C++</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon" src = "img/photoshopLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/photoshopLogo.png">
+				<h2 class = "skillText">Photoshop</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon" src = "img/versionControl.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/versionControl.png">
+				<h2 class = "skillText">Version control</h2>
 			</div>
 		</div>
 		<div class = "flexContainer">
-			<div class = "square">
-				<img class = "flexIcon" src = "img/magentoLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/magentoLogo.png">
+				<h2 class = "skillText">Magento</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon"src = "img/unrealLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon"src = "img/icons/unrealLogo.png">
+				<h2 class = "skillText">Unreal Engine 4</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon" src = "img/cssHtmlLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/cssHtmlLogo.png">
+				<h2 class = "skillText">HTML5 & CSS3</h2>
 			</div>
-			<div class = "square">
-				<img class = "flexIcon" src = "img/unityLogo.png">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/unityLogo.png">
+				<h2 class = "skillText">Unity</h2>
+			</div>
+		</div>
+		<a href = "#"><h2>These aren't my only skills, click here for more...</h2></a>
+	</div>
+</section>
+
+<!- Mobile skills ->
+<section class = "mobile" id = "skillsMobile">
+	<div class = "dark icons">
+		<div class = "flexContainer">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/python.png">
+				<h2 class = "skillText">Python</h2>
+			</div>
+			<div class = "iconSquare">
+				<img class = "flexIcon"src = "img/icons/cppLogo.png">
+				<h2 class = "skillText">C++</h2>
+			</div>
+		</div>
+		<div class = "flexContainer">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/photoshopLogo.png">
+				<h2 class = "skillText">Photoshop</h2>
+			</div>
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/versionControl.png">
+				<h2 class = "skillText">Version control</h2>
+			</div>
+		</div>
+		<div class = "flexContainer">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/magentoLogo.png">
+				<h2 class = "skillText">Magento</h2>
+			</div>
+			<div class = "iconSquare">
+				<img class = "flexIcon"src = "img/icons/unrealLogo.png">
+				<h2 class = "skillText">Unreal Engine 4</h2>
+			</div>
+		</div>
+		<div class = "flexContainer">
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/cssHtmlLogo.png">
+				<h2 class = "skillText">HTML5 & CSS3</h2>
+			</div>
+			<div class = "iconSquare">
+				<img class = "flexIcon" src = "img/icons/unityLogo.png">
+				<h2 class = "skillText">Unity</h2>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
-	<div class="light" id = "experience">
+
+<!- Experience ->
+<section id = "experience">
+	<div class="light">
 		<h2>Experience</h2>
 		<h3>Ecommerce Strategies Ltd (ECS) - Front End Web Developer</h3>
 		<p>ECS is a Magento specialist ecommerce web development company in affiliation with Vaimo, at the time there were around . I worked there full time for around 1 year starting late 2015.
@@ -84,25 +199,46 @@
 		 As a result of this work, I am also familiar with grunt, gulp and less, as well as editing sites and pushing site changes using command line tools. </p>
 		<p><span class = "boldUnderline">Formatting product databases:</span> Using excel formulae on up to 40,000 unique SKUs at a time, I formatted product lists with their categories and information for the import into Magento using the "Magmi" mass product importer and Sequel Pro. 
 		 This involved the import of both simple products and more complex configurable ones.</p>
-		<p><span class = "boldUnderline">Writing blog posts:</span> Over my time at ECS, I wrote around 20 blog posts about various topics surrounding ecommerce, such as SEO. Among these were posts about the company's site launches.</p>
+		<p><span class = "boldUnderline">Writing blog posts:</span> Over my time at ECS, I wrote around 20 blog posts about various topics surrounding ecommerce, such as SEO. Among these were posts about ECS's customers' site launches.</p>
 		<p><span class = "boldUnderline">Customer training:</span> When new customers needed to learn about how to operate their website, such as adding new products, categories, and pages, I would give them a training session.
-		 As a result, I have an in depth understanding of backend magento, and to a lesser extent, magento 2. I have also improved at teaching how to operate software in a simple to understand manner.
-		</p>
+		 As a result, I have an in depth understanding of backend magento, and to a lesser extent, magento 2. I have also improved at teaching how to operate software in a simple to understand manner.</p>
+		<p><span class = "boldUnderline">QA Testing:</span> This involved thoroughly testing the websites on a number of different browsers and devices, looking for potential issues that customers might have.</p>
 	</div>
 </section>
-<section>
+
+<section id = "portfolio">
 <div class="dark">
-		<h2>Tewstawetwt</h2>
+		<h2>Portfolio</h2>
+		<div class = "flexContainer">
+			<div class = "flexChild">
+				<h3>Squid Vs Eel</h3>
+			</div>
+			<div class = "flexChild">
+				<h3>Techademy</h3>
+			</div>
+			<div class = "flexChild">
+				<h3>Descension</h3>
+			</div>
+			<div class = "flexChild">
+				<h3>Global Game Jam 2017</h3>
+			</div>
+		</div>
 	</div>
 </section>
-<section>
+<section id = "contact">
 <div class="light">
-		<h2>Tewstawetwt</h2>
-	</div>
-</section>
-<section>
-<div class="dark">
-		<h2>Tewstawetwt</h2>
+		<h2>Links and Contact</h2>
+			<div class = "flexContainer">
+				<div class = "flexChild">
+					<a href = "https://github.com/Newtoto"><h3>Github</h3></a>
+				</div>
+				<div class = "flexChild">
+					<a href = "https://uk.linkedin.com/in/andrew-findlay"><h3>Linkedin</h3></a>
+				</div>
+				<div class = "flexChild">
+					<a href = "mailto:andrewrfindlay@ntlworld.com"><h3>Email</h3></a>
+				</div>
+			</div>
 	</div>
 </section>
 </div>
