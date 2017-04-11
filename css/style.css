@@ -60,7 +60,7 @@ a:hover{
 .content{
 	background-color: #7d8491;
 	margin: 0 10% 0 10%;
-	box-shadow: 0 -10px 50px 0;
+	box-shadow: 0 -10px 80px 10px;
 	position: relative;
 	z-index: 1;
 }
@@ -138,6 +138,13 @@ section .light{
 	
 	.headerLink{
 		padding-top: 0;
+	}
+}
+
+@media (max-width: 500px){
+	.fixedHeader h2{
+		font-size: 0.8em;
+		line-height: 4.5em;
 	}
 }
 
