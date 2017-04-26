@@ -22,6 +22,9 @@ a:hover{
 	color: #d4421e;
 }
 
+.dark a{
+	color:#c0c5c1;
+}
 .dark a h2{
 	background-color: #bbbe64;
 }
@@ -159,4 +162,36 @@ section .light{
 	font-weight: 600;
 	text-decoration: underline;
 	color: #443850;
+}
+
+.portfolioDiv{
+	padding:10px;
+}
+
+.portfolioLink{
+	color:#c0c5c1;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.portfolioLink p{
+	background-color: black;
+	padding: 5px 0;
+	border-radius: 5px;
+}
+
+.portfolioLink p:hover{
+	background-color: #443850;
+	color: black;
+}
+
+.odd{
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.27);
+}
+
+.even{
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.08);
 }
