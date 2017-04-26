@@ -16,4 +16,5 @@ jQuery(document).ready(function() {
 		.fancybox({
 			padding : 0
 		});
+		
 });
