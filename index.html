@@ -25,7 +25,7 @@
 		<a href = "#experience" class = "flexChild headerLink">
 			<h2>Experience</h2>
 		</a>
-		<a href = "#portfolio" class = "flexChild headerLink" id = "portfolioButton" >
+		<a href = "#portfolio" class = "flexChild headerLink">
 			<h2>Portfolio</h2>
 		</a>
 		<a href = "#contact" class = "flexChild headerLink">
@@ -45,7 +45,7 @@
 		<a href = "#experience" class = "flexChild headerLink">
 			<h2>Experience</h2>
 		</a>
-		<a href = "#portfolio" class = "flexChild headerLink" id = "portfolioButtonMobile">
+		<a href = "#portfolio" class = "flexChild headerLink">
 			<h2>Portfolio</h2>
 		</a>
 		<a href = "#contact" class = "flexChild headerLink">
@@ -89,7 +89,7 @@
 		<a href = "#experience" class = "flexChild headerLink">
 			<h2>Experience</h2>
 		</a>
-		<a href = "#portfolio" class = "flexChild headerLink">
+		<a href = "#portfolioMobile" class = "flexChild headerLink">
 			<h2>Portfolio</h2>
 		</a>
 		<a href = "#contact" class = "flexChild headerLink">
@@ -229,12 +229,16 @@
 	</div>
 </section>
 
-<section id = "portfolio">
+<!- Full width portfolio ->
+<section id = "portfolio" class = "desktop">
 <div class="dark">
 		<h2>Portfolio</h2>
 		<div class = "odd">
-			<h3>Squid Vs Eel</h3>
+			<h3>Squid Vs Eel (2016)</h3>
 			<div class = "flexContainer">
+				<div class = "flexChild portfolioDiv">
+					<h3><img src="img/portfolio/SquidVSEel.png"></h3>
+				</div>
 				<div class = "flexChild portfolioDiv">
 					<h3>Description</h3>
 					<p>
@@ -245,10 +249,91 @@
 					</p>
 					<p>The use of cooldowns introduces an element of timing and skill.</p>
 				</div>
-				<div class = "flexChild portfolioDiv">
+			</div>
+			<div class = "portfolioDiv">
+					<h3>My role and contribution</h3>
+					<p>The team consisted of 4 programmers, including myself.</p>
+					<p>For this game I was involved with both programming along with the 3 others, as well as making all the artwork and procedurally generated music used in the game.</p>
+				</div>
+			<a href = "https://github.com/Newtoto/comp150-desktop-game" class = "portfolioLink"><p>Squid VS Eel Github repository</p></a>
+		</div>
+		<div class = "even">
+			<h3>Hyper Heatwave Runner (Global Game Jam 2017)</h3>
+			<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>
+							<img src="img/portfolio/GlobalGameJam.png">
+						</h3>
+					</div>
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Hyper Heatwave Runner is an endless runner game set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers.
+							All this while a load of baguettes fly at your face.
+						</p>
+					</div>
+				</div>
+				<div class = "portfolioDiv">
+					<h3>My role and contribution</h3>
+					<p>
+						The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
+					</p>
+					<p>
+						I was involved with the programming, as well as making the music and sound effects for the game.
+					</p>
+				</div>
+			<a href = "" class = "portfolioLink"><p>Global Game Jam repository</p></a>
+		</div>
+		<div class = "odd">
+			<h3>Descension (2017)</h3>
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>
+							<img src="https://demoncrypt.github.io/images/Screenshots/ArenaLeft.jpg">
+						</h3>
+					</div>
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Descension is a first person melee hoard survival game set in the underworld created by Demon Crypt. Fight your way through masses of disturbing creatures with a hammer or dual axes in order to unleash as much havoc as you can, before your inevitable death that is.
+						</p>
+					</div>
+				</div>
+				<div class = "portfolioDiv">
+					<h3>My role and contribution</h3>
+					<p>
+						The Demon Crypt team consisted of 11 people, the breakdown of which is on the website linked below.
+					</p>
+					<p>
+						I was one of 3 programmers on the team.
+					</p>
+				</div>
+			<a href = "https://demoncrypt.github.io/" class = "portfolioLink"><p>Demon Crypt website</p></a>
+		</div>
+	</div>
+</section>
+
+<!- Mobile portfolio>
+<section id = "portfolioMobile" class = "mobile">
+<div class="dark">
+		<h2>Portfolio</h2>
+		<div class = "odd">
+			<h3>Squid Vs Eel</h3>
+			<div class = "">
+				<div class = "portfolioDiv">
+					<h3>Description</h3>
+					<p>
+						Squid VS Eel is a 2 player couch competitive game programmed in python using pygame.
+					</p>
+					<p>
+						It is played by sharing a single keyboard with each player taking on the role of either the squid or the eel, each posessing a set of unique abilities designed to inflict damage, or counter the opponent's attacks.
+					</p>
+					<p>The use of cooldowns introduces an element of timing and skill.</p>
+				</div>
+				<div class = "portfolioDiv">
 					<h3><img src="img/portfolio/SquidVSEel.png"></h3>
 				</div>
-				<div class = "flexChild portfolioDiv">
+				<div class = "portfolioDiv">
 					<h3>My role and contribution</h3>
 					<p>The team consisted of 4 programmers, including myself.</p>
 					<p>For this game I was involved with both programming along with the 3 others, as well as making all the artwork and procedurally generated music used in the game.</p>
@@ -258,20 +343,20 @@
 		</div>
 		<div class = "even">
 			<h3>Hyper Heatwave Runner (Global Game Jam 2017)</h3>
-			<div class = "flexContainer">
-					<div class = "flexChild portfolioDiv">
+			<div class = "">
+					<div class = "portfolioDiv">
 						<h3>Description</h3>
 						<p>
 							Hyper Heatwave Runner is an endless runner game set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers.
 							All this while a load of baguettes fly at your face.
 						</p>
 					</div>
-					<div class = "flexChild portfolioDiv">
+					<div class = "portfolioDiv">
 						<h3>
 							<img src="img/portfolio/GlobalGameJam.png">
 						</h3>
 					</div>
-					<div class = "flexChild portfolioDiv">
+					<div class = "portfolioDiv">
 						<h3>My role and contribution</h3>
 						<p>
 							The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
@@ -285,19 +370,19 @@
 		</div>
 		<div class = "odd">
 			<h3>Descension</h3>
-				<div class = "flexContainer">
-					<div class = "flexChild portfolioDiv">
+				<div class = "">
+					<div class = "portfolioDiv">
 						<h3>Description</h3>
 						<p>
 							Descension is a first person melee hoard survival game set in the underworld created by Demon Crypt. Fight your way through masses of disturbing creatures with a hammer or dual axes in order to unleash as much havoc as you can, before your inevitable death that is.
 						</p>
 					</div>
-					<div class = "flexChild portfolioDiv">
+					<div class = "portfolioDiv">
 						<h3>
 							<img src="https://demoncrypt.github.io/images/Screenshots/ArenaLeft.jpg">
 						</h3>
 					</div>
-					<div class = "flexChild portfolioDiv">
+					<div class = "portfolioDiv">
 						<h3>My role and contribution</h3>
 						<p>
 							The Demon Crypt team consisted of 11 people, the breakdown of which is on the website linked below.
@@ -311,10 +396,11 @@
 		</div>
 	</div>
 </section>
+
 <section id = "contact">
 <div class="light">
 		<h2>Links and Contact</h2>
-			<div class = "flexContainer">
+			<div class = "">
 				<div class = "flexChild">
 					<a href = "https://github.com/Newtoto"><h3>Github</h3></a>
 				</div>

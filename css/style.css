@@ -129,6 +129,9 @@ section .light{
 		display: none;
 	}
 	
+	.midwidth{
+		display: none;
+	}
 	.header h2{
 		font-size: 1em;
 		line-height: 0;
