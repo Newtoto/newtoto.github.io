@@ -33,6 +33,13 @@ a:hover{
 	color: #d4421e;
 }
 
+.footer{
+	padding: 5px 10%;
+	background-color: #bbbe64;
+	position: relative;
+	z-index:4;
+}
+
 .header{
 	padding: 20px 10%;
 	background-color: #bbbe64;
@@ -106,6 +113,15 @@ section .light{
 	border-radius: 5px;
 }
 
+.footerIcons{
+	 padding-top:13px;
+	 display:inherit;
+}
+
+.footerIcons a img{
+	padding-left: 10px;
+	width: 35px;
+}
 
 @media (max-width: 1050px){
 	.content{
