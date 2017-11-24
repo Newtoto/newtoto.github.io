@@ -1,5 +1,5 @@
 body{
-	background-color: #eaf0ce; 
+	background-color: #674e71; 
 	margin: 0;
 	font-family: "Lora", serif;
 	color: #443850;
@@ -15,11 +15,11 @@ img{
 
 a{
 	text-decoration: none;
-	color: #443850;
+	color: #bec1ba;
 }
 
 a:hover{
-	color: #d4421e;
+	color: #c5a0a0;
 }
 
 .dark a{
@@ -35,15 +35,15 @@ a:hover{
 
 .footer{
 	padding: 5px 10%;
-	background-color: #bbbe64;
+	color: #000;
+	background-color: #8e9598;
 	position: relative;
 	z-index:4;
 }
 
 .header{
-	padding: 20px 10%;
-	background-color: #bbbe64;
-	text-align: center;
+	padding: 10px 10% 0 10%;
+	background-color: #212121;
 	position: relative;
 	z-index:4;
 }
@@ -52,47 +52,47 @@ a:hover{
 	padding: 0 10%;
 	background-color: #bbbe64;
 	position: fixed;
-	text-align: center;
 	top: 0;
 	left: 0;
 	width: 80%;
 	z-index: 2;
 }
 
+.headerName{
+	line-height:5px;
+	padding-left:30px;
+	padding-top:10px;
+	font-size: 1.3em;
+	color: #bec1ba;
+	width: 100%;
+}
+
+.headerLinks{
+	display: inline-flex;
+	color: #bec1ba;
+	width: 100%;
+	font-size: 1.2em;
+}
+
 .headerLink{
-	padding-top: 8px;
+	padding: 20px 30px;
 }
 
 .headerLink:hover{
-	background-color: #a8ab63;
+	background-color: #6f4a6e;
 }
 
 .content{
-	background-color: #7d8491;
+	color: #ff0c0021;
+	background-color: #496671;
 	margin: 0 10% 0 10%;
-	box-shadow: 0 -10px 80px 10px;
+	box-shadow: 0 0 160px 67px;
 	position: relative;
 	z-index: 1;
 }
 
 section{
 	color: #c0c5c1;
-}
-
-section .icons{
-	padding: 0;
-	text-align: center;
-}
-
-section .dark{
-	background-color: #443850;
-	padding: 23px 2%;
-}
-
-section .light{
-	background-color: #7d8491;
-	padding: 23px 2%;
-	height: auto;
 }
 
 .flexContainer{
@@ -208,10 +208,9 @@ section .light{
 
 .odd{
 	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.27);
+	background-color: rgba(0, 0, 0, 0.14);
 }
 
 .even{
 	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.08);
 }
