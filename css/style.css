@@ -42,7 +42,7 @@ a:hover{
 }
 
 .header{
-	padding: 10px 10% 0 10%;
+	padding: 0 10% 0 10%;
 	background-color: #212121;
 	position: relative;
 	z-index:4;
@@ -59,8 +59,7 @@ a:hover{
 }
 
 .headerName{
-	line-height:5px;
-	padding-left:30px;
+	padding: 1px 30px 6px 30px;
 	padding-top:10px;
 	font-size: 1.3em;
 	color: #bec1ba;
@@ -124,6 +123,10 @@ section{
 }
 
 @media (max-width: 1050px){
+	.header{
+		padding-left: 0;
+	}
+	
 	.content{
 		margin: 0;
 	}
@@ -185,7 +188,7 @@ section{
 }
 
 .portfolioDiv{
-	padding:10px;
+	padding: 0 10px 10px 10px;
 }
 
 .portfolioLink{
@@ -202,15 +205,21 @@ section{
 }
 
 .portfolioLink p:hover{
-	background-color: #443850;
-	color: black;
+	background-color: #0c0c0c;
+	color: #af7730;
 }
 
 .odd{
-	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.14);
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 0 20px 20px 20px;
 }
 
 .even{
-	padding: 20px;
+	padding: 0 20px 20px 20px;
+}
+
+.projectTitle{
+	padding: 20px 20px 20px 30px;
+    background-color: #8e959847;
+    margin: 0;
 }
