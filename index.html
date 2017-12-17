@@ -18,11 +18,9 @@
 	<div class = "headerName">
 		<h1>Andy Findlay</h1>
 	</div>
+	<!-- 
 	<div class = "headerLinks">
 		<a href = "index.html" class = "headerLink">
-			Home
-		</a>
-		<a href = "#experience" class = "headerLink">
 			Portfolio
 		</a>
 		<a href = "#portfolio" class = "headerLink">
@@ -32,12 +30,14 @@
 			Contact
 		</a>
 	</div>
+	-->
 </div>
 <!- Mobile main header ->
-<div class = "header flexContainer mobile">
-	<a href = "index.html">
-		<h1 class = "flexChild headerName">Andy Findlay</h1>
-	</a>
+<div class = "header mobile">
+	<div class = "headerName">
+		<h1>Andy Findlay</h1>
+	</div>
+	<!-- 
 	<div class = "flexChild flexContainer">
 		<a href = "#skillsMobile" class = "flexChild headerLink">
 			<h2>Skills</h2>
@@ -52,72 +52,102 @@
 			<h2>Contact</h2>
 		</a>
 	</div>
+	-->
 </div>
 
-<div class = "content">
-
-<section>
-<div class="dark">
-		<div class = "odd">
-			<h3>Squid Vs Eel (2016)</h3>
-			<div class = "flexContainer">
-				<div class = "flexChild portfolioDiv">
-					<h3><img src="img/portfolio/SquidVSEel.png"></h3>
-				</div>
-				<div class = "flexChild portfolioDiv">
-					<h3>Description</h3>
-					<p>
-						Squid VS Eel is a 2 player couch competitive game programmed in python using pygame.
-					</p>
-					<p>
-						It is played by sharing a single keyboard with each player taking on the role of either the squid or the eel, each possessing a set of unique abilities designed to inflict damage, or counter the opponent's attacks.
-					</p>
-					<p>The use of cooldowns introduces an element of timing and skill.</p>
-				</div>
-			</div>
-			<div class = "portfolioDiv">
-					<h3>My role and contribution</h3>
-					<p>The team consisted of 4 programmers, including myself.</p>
-					<p>For this game I was involved with both programming along with the 3 others, as well as making all the artwork and procedurally generated music used in the game.</p>
-				</div>
-			<a href = "https://github.com/Newtoto/comp150-desktop-game" class = "portfolioLink"><p>Squid VS Eel Github repository</p></a>
-		</div>
-		<div class = "even">
-			<h3>Hyper Heatwave Runner (Global Game Jam 2017)</h3>
-			<div class = "flexContainer">
+<!- Desktop content ->
+<div class = "content desktop">
+	<section>
+		<div class="dark">
+			<h2 class = "projectTitle">VR Rooftop Sniper (December 2017) - Solo Project</h2>
+			<div class = "odd">
+				<div class = "flexContainer">
 					<div class = "flexChild portfolioDiv">
 						<h3>
-							<img src="img/portfolio/GlobalGameJam.png">
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/TmrW0BKJ8Io" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						</h3>
 					</div>
 					<div class = "flexChild portfolioDiv">
 						<h3>Description</h3>
 						<p>
-							Hyper Heatwave Runner is an endless runner game made in Unity. 
+							This prototype was created for the Vive and made in Unity with SteamVR. An Arduino, sliding potentiometer and button was also used, along with a vive tracker and a custom spring mechanism in order to explore alternative forms of feedback outside of the standard vive controllers.
 						</p>
 						<p>
-							It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers.
-							All this while a load of baguettes fly at your face.
+							Progress pictures and videos are available in the Github repo, which is linked below.
+						</p>
+						</br>
+						<h3>Challenges</h3>
+						<p>
+							Since my access to tools and materials was limited, the gun model and firing mechanism was made out of recycled boxes and pringles tubes, a peg, bearings, allen keys, a spring, cable ties and a lot of duct tape. This meant that the strength was limited and I couldn't make the firing mechanism as powerful as I would have liked.
+						</p>
+						<p>
+							If this was just an electronic gun, it would have been easy. If this was just a mechanical gun, it would have been easy. Trying to combine both made this considerably more difficult, because it meant that 1 button had to give a digital signal and fire the mechanism. As well as this, the reload had to load the mechanism and send over values to show its physical location.
 						</p>
 					</div>
 				</div>
-				<div class = "portfolioDiv">
-					<h3>My role and contribution</h3>
-					<p>
-						The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
-					</p>
-					<p>
-						I was involved with the programming, as well as making the music and sound effects for the game.
-					</p>
-				</div>
-			<a href = "https://github.com/Herro-Sama/Freelancer_Runner" class = "portfolioLink"><p>Global Game Jam Github repository</p></a>
-		</div>
-		<div class = "odd">
-			<h3>Descension (2017)</h3>
+				<a href = "https://github.com/Newtoto/COMP210_2_interace_task" class = "portfolioLink"><p>VR Rooftop Sniper Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Cookoo (September 2017 -  Present) - Team Project</h2>
+			<div class = "even">
 				<div class = "flexContainer">
 					<div class = "flexChild portfolioDiv">
 						<h3>
-							<img src="https://demoncrypt.github.io/images/Screenshots/ArenaLeft.jpg">
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/jo44fDbji4c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+					</div>
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Cookoo is currently an assymetrical couch co-op game in which one player drives, while the other player cooks in the back. This is made in Unity.
+						</p>
+						<p>
+							This game is still in progress and has plans to change dramatically over the course of the next year. These changes involve making the game a competitive game where both players cook in a fast paced mini-game style and then drive. The goal will be to grow your pancake business the most.
+						</p>
+						</br>
+						<h3>The team and my roles</h3>
+						<p>
+							The team for this game is made up of 10 students. 3 programmers (including myself), 2 artists, 3 designers, 1 audio engineer and 1 animator.
+						</p>
+						<p>
+							My main roles were programming the driving and the interactions between the driving and the chef. One of the other 2 programmers did the UI, and the other programmed the cooking.
+						</p>
+					</div>
+				</div>
+			</div>
+			<h2 class = "projectTitle">Crossbeam (April 2017) - Solo Project</h2>
+			<div class = "odd">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/Ir_wRuPJOs0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+					</div>
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Crossbeam is a 2D puzzle game made in UE4 where you shoot 4 turrets to around obstacles in order to hit targets.
+						</p>
+						<p>
+							This game is designed with a custom controller in mind which was made using a button, 2 potentiometers and an Arduino.
+						</p>
+						</br>
+						<h3>Challenges</h3>
+						<p>
+							I wanted the game to be fully controllable without the use of a keyboard and mouse, so I implemented a menu and level selection which could be navigated using this controller.
+						</p>
+						<p>
+							The main challenge with this project was that 4 potentiometers resulted in incomplete values being sent to unreal. After sanity checking the values coming in, there wasn't enough valid numbers being received to get a responsive 3rd and 4th turret. For this reason I ended up reducing the number to 2 which meant that I had to make the game work with fewer inputs.
+						</p>
+					</div>
+				</div>
+				<a href = "https://github.com/Newtoto/comp140-gam160-game" class = "portfolioLink"><p>Crossbeam Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Descension (March 2017) - Team Project</h2>
+			<div class = "even">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/-UZRWX8Yq_o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						</h3>
 					</div>
 					<div class = "flexChild portfolioDiv">
@@ -129,52 +159,242 @@
 							It is set in the underworld and created by Demon Crypt. 
 							Fight your way through masses of disturbing creatures with a hammer or dual axes in order to unleash as much havoc as you can, before your inevitable death that is.
 						</p>
+						</br>
+						<h3>The team and my contribution</h3>
+						<p>
+							The Demon Crypt team consisted of 11 people, 3 programmers (including myself), 4 artists, 2 designers, 1 audio engineer and 1 animator. I was a dedicated programmer for this game, working on various aspects such as AI and a weapon switching system.
+						</p>
+						<p>
+							This was my first game project in UE4.
+						</p>
 					</div>
 				</div>
-				<div class = "portfolioDiv">
-					<h3>My role and contribution</h3>
-					<p>
-						The Demon Crypt team consisted of 11 people, the breakdown of which is on the website linked below.
-					</p>
-					<p>
-						I was one of 3 programmers on the team.
-					</p>
-				</div>
-			<a href = "https://demoncrypt.github.io/" class = "portfolioLink"><p>Demon Crypt website</p></a>
-		</div>
-		<div class = "even">
-			<h3>Crossbeam (2017)</h3>
+			</div>
+			<h2 class = "projectTitle">GGJ Hyper Heatwave Runner (January 2017) - Team Project</h2>
+			<div class = "odd">
 				<div class = "flexContainer">
 					<div class = "flexChild portfolioDiv">
 						<h3>
-							<video width = "100%" height = "auto" autoplay loop>
-							<source src = "img/portfolio/Crossbeam.mp4" type = "video/mp4" />
-							Your browser does not support the video tag.
-							</video>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/wz2PdwKm5uQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						</h3>
 					</div>
 					<div class = "flexChild portfolioDiv">
 						<h3>Description</h3>
 						<p>
-							Crossbeam is a 2D puzzle game  made in UE4 where you shoot 4 turrets to around obstacles in order to hit targets.
+							Hyper Heatwave Runner is an endless runner game made in Unity for the global game jam 2017. 
 						</p>
 						<p>
-							This game is designed with a custom controller in mind which was made using a button, 2 potentiometers and an Arduino. 
-							You can see the controller in action <a style = "text-decoration: underline" href = "https://www.youtube.com/watch?v=Ir_wRuPJOs0"> here</a>.
+							It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers.
+							All this while a load of baguettes fly at your face.
+						</p>
+						</br>
+						<h3>The team and my contribution</h3>
+						<p>
+							The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
+						</p>
+						<p>
+							I was involved with the programming, as well as making the music and sound effects for the game. This was my first time programming in Unity which was a challenge since the time frame for this game was 48 hours.
 						</p>
 					</div>
 				</div>
-				<div class = "portfolioDiv">
-						<h3>My role and contribution</h3>
+				<a href = "https://github.com/Herro-Sama/HyperHeatwaveRunner" class = "portfolioLink"><p>Global Game Jam Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Squid Vs Eel (December 2016) - Team Project</h2>
+			<div class = "even">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>
+							<img src="img/portfolio/SquidVSEel.png">
+						</h3>
+					</div>
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
 						<p>
-							I was the only person working on this project.
+							Squid VS Eel is a 2 player couch competitive game programmed in python using pygame.
 						</p>
+						<p>
+							It is played by sharing a single keyboard with each player taking on the role of either the squid or the eel, each possessing a set of unique abilities designed to inflict damage, or counter the opponent's attacks.
+						</p>
+						<p>
+							The use of cooldowns introduces an element of timing and skill.
+						</p>
+						</br>
+						<h3>The team and my contribution</h3>
+						<p>
+							The team consisted of 4 programmers, including myself.
+						</p>
+						<p>
+							For this game I was involved with both programming and design along with the 3 others, as well as making animations and procedurally generated music. This was my first Pygame project.
+						</p>
+					</div>
 				</div>
-			<a href = "https://github.com/Newtoto/comp140-gam160-game" class = "portfolioLink"><p>Crossbeam Github repository</p></a>
+				<a href = "https://github.com/Newtoto/comp150-desktop-game" class = "portfolioLink"><p>Squid VS Eel Github repository</p></a>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 </div>
+
+<!- Mobile content ->
+<div class = "content mobile">
+	<section>
+		<div class="dark">
+			<h2 class = "projectTitle">VR Rooftop Sniper (December 2017) - Solo Project</h2>
+			<div class = "odd">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							This prototype was created for the Vive and made in Unity with SteamVR. An Arduino, sliding potentiometer and button was also used, along with a vive tracker and a custom spring mechanism in order to explore alternative forms of feedback outside of the standard vive controllers.
+						</p>
+						<p>
+							Progress pictures and videos are available in the Github repo, which is linked below.
+						</p>
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/TmrW0BKJ8Io" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+						<h3>Challenges</h3>
+						<p>
+							Since my access to tools and materials was limited, the gun model and firing mechanism was made out of recycled boxes and pringles tubes, a peg, bearings, allen keys, a spring, cable ties and a lot of duct tape. This meant that the strength was limited and I couldn't make the firing mechanism as powerful as I would have liked.
+						</p>
+						<p>
+							If this was just an electronic gun, it would have been easy. If this was just a mechanical gun, it would have been easy. Trying to combine both made this considerably more difficult, because it meant that 1 button had to give a digital signal and fire the mechanism. As well as this, the reload had to load the mechanism and send over values to show its physical location.
+						</p>
+					</div>
+				</div>
+				<a href = "https://github.com/Newtoto/COMP210_2_interace_task" class = "portfolioLink"><p>VR Rooftop Sniper Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Cookoo (September 2017 -  Present) - Team Project</h2>
+			<div class = "even">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Cookoo is currently an assymetrical couch co-op game in which one player drives, while the other player cooks in the back. This is made in Unity.
+						</p>
+						<p>
+							This game is still in progress and has plans to change dramatically over the course of the next year. These changes involve making the game a competitive game where both players cook in a fast paced mini-game style and then drive. The goal will be to grow your pancake business the most.
+						</p>
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/jo44fDbji4c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+						<h3>The team and my roles</h3>
+						<p>
+							The team for this game is made up of 10 students. 3 programmers (including myself), 2 artists, 3 designers, 1 audio engineer and 1 animator.
+						</p>
+						<p>
+							My main roles were programming the driving and the interactions between the driving and the chef. One of the other 2 programmers did the UI, and the other programmed the cooking.
+						</p>
+					</div>
+				</div>
+			</div>
+			<h2 class = "projectTitle">Crossbeam (April 2017) - Solo Project</h2>
+			<div class = "odd">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Crossbeam is a 2D puzzle game made in UE4 where you shoot 4 turrets to around obstacles in order to hit targets.
+						</p>
+						<p>
+							This game is designed with a custom controller in mind which was made using a button, 2 potentiometers and an Arduino.
+						</p>
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/Ir_wRuPJOs0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+						<h3>Challenges</h3>
+						<p>
+							I wanted the game to be fully controllable without the use of a keyboard and mouse, so I implemented a menu and level selection which could be navigated using this controller.
+						</p>
+						<p>
+							The main challenge with this project was that 4 potentiometers resulted in incomplete values being sent to unreal. After sanity checking the values coming in, there wasn't enough valid numbers being received to get a responsive 3rd and 4th turret. For this reason I ended up reducing the number to 2 which meant that I had to make the game work with fewer inputs.
+						</p>
+					</div>
+				</div>
+				<a href = "https://github.com/Newtoto/comp140-gam160-game" class = "portfolioLink"><p>Crossbeam Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Descension (March 2017) - Team Project</h2>
+			<div class = "even">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Descension is a first person melee hoard survival game made in UE4.
+						</p>
+						<p>
+							It is set in the underworld and created by Demon Crypt. 
+							Fight your way through masses of disturbing creatures with a hammer or dual axes in order to unleash as much havoc as you can, before your inevitable death that is.
+						</p>
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/-UZRWX8Yq_o" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+						<h3>The team and my contribution</h3>
+						<p>
+							The Demon Crypt team consisted of 11 people, 3 programmers (including myself), 4 artists, 2 designers, 1 audio engineer and 1 animator. I was a dedicated programmer for this game, working on various aspects such as AI and a weapon switching system.
+						</p>
+						<p>
+							This was my first game project in UE4.
+						</p>
+					</div>
+				</div>
+			</div>
+			<h2 class = "projectTitle">GGJ Hyper Heatwave Runner (January 2017) - Team Project</h2>
+			<div class = "odd">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Hyper Heatwave Runner is an endless runner game made in Unity for the global game jam 2017. 
+						</p>
+						<p>
+							It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers.
+							All this while a load of baguettes fly at your face.
+						</p>
+						<h3>
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/wz2PdwKm5uQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+						</h3>
+						<h3>The team and my contribution</h3>
+						<p>
+							The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
+						</p>
+						<p>
+							I was involved with the programming, as well as making the music and sound effects for the game. This was my first time programming in Unity which was a challenge since the time frame for this game was 48 hours.
+						</p>
+					</div>
+				</div>
+				<a href = "https://github.com/Herro-Sama/HyperHeatwaveRunner" class = "portfolioLink"><p>Global Game Jam Github repository</p></a>
+			</div>
+			<h2 class = "projectTitle">Squid Vs Eel (December 2016) - Team Project</h2>
+			<div class = "even">
+				<div class = "flexContainer">
+					<div class = "flexChild portfolioDiv">
+						<h3>Description</h3>
+						<p>
+							Squid VS Eel is a 2 player couch competitive game programmed in python using pygame.
+						</p>
+						<p>
+							It is played by sharing a single keyboard with each player taking on the role of either the squid or the eel, each possessing a set of unique abilities designed to inflict damage, or counter the opponent's attacks.
+						</p>
+						<p>
+							The use of cooldowns introduces an element of timing and skill.
+						</p>
+						<h3>
+							<img src="img/portfolio/SquidVSEel.png">
+						</h3>
+						<h3>The team and my contribution</h3>
+						<p>
+							The team consisted of 4 programmers, including myself.
+						</p>
+						<p>
+							For this game I was involved with both programming and design along with the 3 others, as well as making animations and procedurally generated music. This was my first Pygame project.
+						</p>
+					</div>
+				</div>
+				<a href = "https://github.com/Newtoto/comp150-desktop-game" class = "portfolioLink"><p>Squid VS Eel Github repository</p></a>
+			</div>
+		</div>
+	</section>
+</div>
+
 <div class = "footer flexContainer" id = "contact">
 	<h4 class = "flexChild">Copyright © 2017 Andy Findlay</h4>
 	<div class = "footerIcons" style = "padding-top:13px; display:inherit;">
@@ -184,7 +404,7 @@
 		<a href = "https://uk.linkedin.com/in/andrew-findlay">
 			<img class = "flexChild" src = "img/footer/linkedinIcon.png">
 		</a>
-		<a href = "mailto:andrewrfindlay@ntlworld.com">
+		<a href = "mailto:andy@andyrobertfindlay.co.uk">
 			<img class = "flexChild" src = "img/footer/emailIcon.png">
 		</a>
 	</div>
