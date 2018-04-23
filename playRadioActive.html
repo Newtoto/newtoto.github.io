@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | RadioActive</title>
+    <link rel="shortcut icon" href="games/RadioActive/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="games/RadioActive/TemplateData/style.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="games/RadioActive/TemplateData/UnityProgress.js"></script>  
+    <script src="games/RadioActive/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "games/RadioActive/Build/WebGLBuild.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+  <div class = "header desktop" href="index.html">
+	<div class = "headerName">
+		<h1>Andy Findlay</h1>
+	</div>
+	</div>
+	<!- Mobile main header ->
+	<div class = "header mobile" href="index.html">
+		<div class = "headerName">
+			<h1>Andy Findlay</h1>
+		</div>
+	</div>
+	
+    <div class="webgl-content">
+		<div style = "color:black">
+		<h2>Global Game Jam 2018 - RadioActive</h2>
+		</br>
+		<h3>Sound required! Use the mouse scroll wheel to tune the radio, use your keyboard to type into the number boxes.</h3>
+		</br>
+		</div>
+		<div id="gameContainer" style="width: 960px; height: 600px"></div>
+		<div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">RadioActive</div>
+		</div>
+    </div>
+  </body>
+</html>
