@@ -2,10 +2,10 @@ import { keyframes } from 'styled-components';
 
 const Spin = keyframes`
     from {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
     to {
-        transform: rotate(0deg);
+        transform: rotate(360deg);
     }
 `
 
@@ -23,21 +23,34 @@ const Bounce = keyframes`
         transform: translateY(0);
     }
     25% {
-        transform: translateY(-20rem);
+        transform: translateY(-10rem);
     }
     50% {
         transform: translateY(0);
     }
     75% {
-        transform: translateY(-10rem);
+        transform: translateY(-5rem);
     }
     100% {
         transform: translateY(0);
     }
 `
 
+const Rise = keyframes`
+0% {
+    transform: translateY(-10rem)
+}
+50% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(-10rem)
+}
+`
+
 export {
     Spin,
     Fade,
-    Bounce
+    Bounce,
+    Rise
 }
