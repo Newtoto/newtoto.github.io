@@ -1,0 +1,11 @@
+Cookoo (September - December 2017) - Team Project [Unity]
+
+Cookoo is an asymmetrical couch co-op game in which one player drives, while the other player cooks in the back.
+
+Due to the frustration of cooking in the back of a moving van (who would've guessed), we pivoted into a new game - Shield Man
+
+The team for this game is made up of 10 students. 3 programmers (including myself), 2 artists, 3 designers, 1 audio engineer and 1 animator.
+
+The programming for this game was split amongst 3 programmers, my focus was on the driving and forces enacted upon the chef.
+
+DEMO VIDEO

@@ -1,0 +1,14 @@
+VR Rooftop Sniper (December 2017) - Solo Project
+
+Description
+This prototype was created for the Vive and made in Unity with SteamVR. An Arduino, sliding potentiometer and button was also used, along with a vive tracker and a custom spring mechanism in order to explore alternative forms of feedback outside of the standard vive controllers.
+
+Progress pictures and videos are available in the Github repo, which is linked below.
+
+
+Challenges
+Since my access to tools and materials was limited, the gun model and firing mechanism was made out of recycled boxes and pringles tubes, a peg, bearings, allen keys, a spring, cable ties and a lot of duct tape. This meant that the strength was limited and I couldn't make the firing mechanism as powerful as I would have liked.
+
+Trying to combine both electronic and mechanical parts made this considerably more difficult, because it meant that 1 button had to give a digital signal and fire the mechanism. As well as this, the reload had to load the mechanism and send over values to show its physical location.
+
+https://github.com/Newtoto/COMP210_2_interace_task

@@ -1,0 +1,15 @@
+Rainbow Beach (Late 2018 - Mid 2019) - Team Project
+
+Description
+Rainbow Beach is a colour mixing puzzle game where you explore island unlocking chests and navigating obstacles using your drum to create and aura around yourself which interects with the environment.
+
+The game contains elements of speed and reactions as you try to match up colours.
+
+The team and my roles
+I was the only programmer on the team, working alongside a designer who also programmed elements of the gameplay. This game was made by "Spicy on the Ricey" which consists of 6 members, 1 programmer, 1 designer/programmer, 2 designers, and 2 artists.
+
+https://www.youtube.com/watch?v=ViOigj3dxBs
+
+https://www.facebook.com/SpicyontheRicey/
+
+https://spicyonthericey.itch.io/rainbow-beach

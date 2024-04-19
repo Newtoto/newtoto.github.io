@@ -1,0 +1,13 @@
+Super Meat Bit NES Game (2018) - Solo Project
+Description
+This project was a demake of the platformer Super Meat Bit. It is programmed in Assembly and runs on an NES console.
+
+The main elements I wanted to convey in this demake was speedrunning, precision challenges and collectables.
+
+
+Challenges
+Programming in assembly forced me to encounter and overcome limit memory and think more about optimisation strategies to get a working game.
+
+By making segments of a tree and swapping colour palettes I was able to make a variety of seasonal trees of different sizes using the same sprites. In order to have enough sprites for the end game text, the bandage sprite memory locations were reused and moved in order to create the "Your time" text.
+
+https://github.com/Newtoto/SuperMeatBit

@@ -1,0 +1,10 @@
+Crossbeam (April 2017) - Solo Project
+
+Crossbeam is a 2D puzzle game made in UE4 where you shoot 4 turrets to around obstacles in order to hit targets.
+This game is designed with a custom controller in mind which was made using a button, 2 potentiometers and an Arduino.
+
+Challenges
+I wanted the game to be fully controllable without the use of a keyboard and mouse, so I implemented a menu and level selection which could be navigated using this controller.
+The main challenge with this project was that 4 potentiometers resulted in incomplete values being sent to unreal. After sanity checking the values coming in, there wasn't enough valid numbers being received to get a responsive 3rd and 4th turret. For this reason I ended up reducing the number to 2 which meant that I had to make the game work with fewer inputs.
+
+https://github.com/Newtoto/comp140-gam160-game

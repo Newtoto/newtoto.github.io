@@ -1,0 +1,16 @@
+Shield Man (January 2018 - April 2018) - Team Project
+
+Description
+Shield Man is a hardcore 2D action platformer inspired by games such as super meat boy, with level time trials and humorous aspects. It is made in Unity.
+
+You play as a knight who is on a quest to retrieve his princess, who also happens to be his sword. You navigate by bashing your shield against floors and walls instead of the more traditional running and jumping platformer mechanics.
+
+This is the second game from Slender Loris after the team decided to step away from the development of Cookoo.
+
+
+The team and my roles
+This is the second game from Slender Loris after the team decided to step away from the development of Cookoo. Slender Loris consists of 10 students. 3 programmers (including myself), 2 artists, 3 designers, 1 audio engineer and 1 animator.
+
+My main role on this project was gameplay programming, alongside elements of AI, save files, and menu navigation.
+
+https://shield-man.itch.io/shield-man

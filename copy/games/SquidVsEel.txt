@@ -1,0 +1,16 @@
+Squid Vs Eel (December 2016) - Team Project
+
+Description
+Squid VS Eel is a 2 player couch competitive game programmed in python using pygame.
+
+It is played by sharing a single keyboard with each player taking on the role of either the squid or the eel, each possessing a set of unique abilities designed to inflict damage, or counter the opponent's attacks.
+
+The use of cooldowns introduces an element of timing and skill.
+
+
+The team and my contribution
+The team consisted of 4 programmers, including myself.
+
+For this game I was involved with both programming and design along with the 3 others, as well as making animations and procedurally generated music. This was my first Pygame project.
+
+https://github.com/Newtoto/comp150-desktop-game

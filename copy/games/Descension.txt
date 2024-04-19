@@ -1,0 +1,14 @@
+Descension (March 2017) - Team Project
+
+Description
+Descension is a first person melee hoard survival game made in UE4.
+
+It is set in the underworld and created by Demon Crypt. Fight your way through masses of disturbing creatures with a hammer or dual axes in order to unleash as much havoc as you can, before your inevitable death that is.
+
+
+The team and my contribution
+The Demon Crypt team consisted of 11 people, 3 programmers (including myself), 4 artists, 2 designers, 1 audio engineer and 1 animator. I was a dedicated programmer for this game, working on various aspects such as AI and a weapon switching system.
+
+This was my first game project in UE4.
+
+https://www.youtube.com/watch?v=-UZRWX8Yq_o

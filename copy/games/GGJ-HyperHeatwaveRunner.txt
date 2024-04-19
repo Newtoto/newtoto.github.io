@@ -1,0 +1,14 @@
+GGJ Hyper Heatwave Runner (January 2017) - Team Project
+
+Description
+Hyper Heatwave Runner is an endless runner game made in Unity for the global game jam 2017.
+
+It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers. All this while a load of baguettes fly at your face.
+
+
+The team and my contribution
+The team of 7 for this project consisted of 3 programmers, 2 artists, and 2 designers.
+
+I was involved with the programming, as well as making the music and sound effects for the game. This was my first time programming in Unity which was a challenge since the time frame for this game was 48 hours.
+
+https://github.com/Herro-Sama/HyperHeatwaveRunner

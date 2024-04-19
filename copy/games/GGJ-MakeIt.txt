@@ -1,0 +1,13 @@
+GGJ Make It (January 2019) - Team Project
+
+Description
+Make it is a top down 3rd person game made in UE4 where the player destroys the environment in order to upgrade their home.
+
+The more they destroy their surroundings, the more poluted its appearance becomes until the player is in a treeless woods with rubbish in the water.
+
+The team and my roles
+As with all global game jams I have focussed on something other than programming to gain insight into other roles.
+
+For this jam I was working on 3D environment art and learning to use maya for the first time. I also made the sound effects and music for the game. The team for this consisted of 2 programmers, 3 artists, and an animator.
+
+https://globalgamejam.org/2019/games/make-it
